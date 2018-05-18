@@ -1,0 +1,19 @@
+{
+  "name": "badjs-sourcemap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/handle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "badjsmap": "./bin/badjsmap.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "source-map": "^0.7.2",
+    "yargs": "^11.0.0"
+  }
+}
