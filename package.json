@@ -1,16 +1,16 @@
 {
-  "name": "badjs-sourcemap",
+  "name": "sourcemap",
   "version": "1.0.0",
-  "description": "",
-  "main": "lib/handle.js",
+  "description": "for badjs sourcemap find code",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "badjsmap": "./bin/badjsmap.js"
+    "sm": "./bin/sm.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "gogoday",
   "license": "ISC",
   "dependencies": {
     "source-map": "^0.7.2",
